@@ -1,6 +1,6 @@
-# 📊 Sales Analytics Dashboard (Power BI)
+# Sales Analytics Dashboard (Power BI)
 ![Project Logo](Flipkart.png)
-## 📌 Project Overview
+## Project Overview
 This project is an **interactive Sales Analytics Dashboard** built using **Microsoft Power BI**. The dashboard provides a comprehensive view of sales performance across multiple dimensions such as **region, customer ratings, payment methods, products, time trends, and discounts**.
 
 It is designed to help businesses and analysts:
@@ -13,7 +13,7 @@ It is designed to help businesses and analysts:
 
 ---
 
-## 🎯 Key Objectives
+## Key Objectives
 - Provide real-time business insights
 - Enable data-driven decision making
 - Visualize complex sales data in a simple format
@@ -22,9 +22,9 @@ It is designed to help businesses and analysts:
 
 ---
 
-## 🧩 Dashboard Features
+## Dashboard Features
 
-### 🔍 Filters / Slicers
+### Filters / Slicers
 - **Customer Rating** (1–5)
 - **Region** (North, South, East, West, Central)
 - **Payment Method** (COD, Debit Card, Credit Card, UPI, Net Banking)
@@ -33,7 +33,7 @@ These slicers dynamically update all visuals.
 
 ---
 
-## 📈 KPIs (Top Metrics)
+## KPIs (Top Metrics)
 - **Total Sales:** 10M
 - **Average Sales:** 10.09K
 - **Average Rating:** 3.07
@@ -41,36 +41,36 @@ These slicers dynamically update all visuals.
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
-### 🗺️ Sales by Region (Map View)
+### Sales by Region (Map View)
 - Geographic distribution of sales across the world
 
-### 💳 Payment Method Distribution (Donut Chart)
+### Payment Method Distribution (Donut Chart)
 - COD
 - Debit Card
 - Credit Card
 - UPI
 - Net Banking
 
-### ⭐ Sales by Performance Rating (Bar Chart)
+### Sales by Performance Rating (Bar Chart)
 - Rating-wise sales performance (1–5)
 
-### 📉 Sales Trend Over Time (Line Chart)
+### Sales Trend Over Time (Line Chart)
 - Monthly sales trend analysis
 
-### 🌍 Quantity Sold by Region (Horizontal Bar Chart)
+### Quantity Sold by Region (Horizontal Bar Chart)
 - Region-wise quantity distribution
 
-### 💸 Discount (%) by Products (Area/Line Chart)
+### Discount (%) by Products (Area/Line Chart)
 - Product-wise discount comparison
 
-### 📦 Products Ordered (Bar Chart)
+### Products Ordered (Bar Chart)
 - Most ordered product categories
 
 ---
 
-## 🧱 Data Model Structure (Logical)
+## Data Model Structure (Logical)
 Typical fields used:
 - Order ID
 - Customer ID
@@ -85,7 +85,7 @@ Typical fields used:
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 - **Microsoft Power BI Desktop**
 - **Power Query** (Data Cleaning & Transformation)
 - **DAX** (Measures & Calculations)
@@ -93,7 +93,7 @@ Typical fields used:
 
 ---
 
-## 🧮 Example DAX Measures
+## Example DAX Measures
 ```DAX
 Total Sales = SUM(Sales[SalesAmount])
 
@@ -106,7 +106,7 @@ Quantity Sold = SUM(Sales[Quantity])
 
 ---
 
-## 🚀 Use Cases
+## Use Cases
 - Business performance analysis
 - Sales forecasting
 - Regional market analysis
@@ -115,26 +115,9 @@ Quantity Sold = SUM(Sales[Quantity])
 - Marketing strategy planning
 
 ---
-
-## 📂 Repository Structure (Suggested)
-```
-Sales-Dashboard/
-│
-├── Data/
-│   └── sales_data.csv
-│
-├── PowerBI/
-│   └── sales_dashboard.pbix
-│
-├── Images/
-│   └── dashboard_preview.png
-│
-└── README.md
-```
-
 ---
 
-## 🧠 Insights Enabled
+## Insights Enabled
 - Best performing regions
 - Most preferred payment methods
 - High-demand products
@@ -144,7 +127,7 @@ Sales-Dashboard/
 
 ---
 
-## 📌 Future Enhancements
+## Future Enhancements
 - Predictive sales forecasting (ML integration)
 - Customer segmentation
 - Profit analysis
@@ -154,16 +137,9 @@ Sales-Dashboard/
 
 ---
 
-## 📜 License
-This project is open for learning, academic use, and portfolio demonstration.
-
----
-
-## 👤 Author
-**Aravind M**  
+## Author
+**Aravindhan M**  
 Power BI Developer | Data Analyst | Data Science Enthusiast
 
 ---
-
-⭐ If you find this project useful, feel free to star the repository and share it!
 
