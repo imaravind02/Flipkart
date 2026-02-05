@@ -1,5 +1,5 @@
 # 📊 Sales Analytics Dashboard (Power BI)
-
+![Project Logo](flipkart.png)
 ## 📌 Project Overview
 This project is an **interactive Sales Analytics Dashboard** built using **Microsoft Power BI**. The dashboard provides a comprehensive view of sales performance across multiple dimensions such as **region, customer ratings, payment methods, products, time trends, and discounts**.
 
